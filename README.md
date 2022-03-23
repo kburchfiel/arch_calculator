@@ -8,8 +8,14 @@ I created Arch Calculator in order to more easily calculate the coordinates of a
 Let's say that you wanted to calculate the coordinates of 3 wedges that, together, form half of an arch. The calculations of these coordinates would be as follows:
 ![](https://raw.githubusercontent.com/kburchfiel/arch_calculator/master/annotated_arch_output.png)
 
-Performing each of these calculations individually would take a while. Instead, you can use the create_arch function within Arch Calculator to determine the coordinates of each block, which can then be copied and pasted into Blender. An example of the function's inputs and outputs is shown below:
+Performing each of these calculations individually would take a while. Instead, you can use the create_arch function within Arch Calculator to determine the coordinates of each block. An example of the function's inputs and outputs is shown below:
 
 ![](https://raw.githubusercontent.com/kburchfiel/arch_calculator/master/sample_code_output.jpg)
+
+Once you have the coordinates, you can copy and paste them into Blender to modify the positions of pre-existing shapes, allowing you to create arches like the following: 
+
+![](https://github.com/kburchfiel/arch_calculator/blob/master/completed_arch_with_tweaks.jpg)
+
+(Some tweaks were made to the top two wedges within this arch in order to align the structure with the coordinate plane in Blender.)
 
 I hope you find this program useful for your own 3D modeling work!
